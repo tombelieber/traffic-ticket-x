@@ -12,6 +12,12 @@
   align-items: center;
 }
 
+.input_box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .footer {
   display: flex;
   flex: 1;
@@ -37,6 +43,21 @@
 .title a:focus,
 .title a:active {
   text-decoration: underline;
+}
+
+.btn {
+  padding: 0.5rem;
+  margin-left: 1rem;
+  /* round sky blue button css */
+  background-color: #18a6d5;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .title {
